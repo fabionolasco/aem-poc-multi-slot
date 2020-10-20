@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "aem-poc-multi-slot"
+    }
+  },
+  "defaultProject": "aem-poc-multi-slot",
+  "cli": {
+    "analytics": "2799e882-79e6-4180-8faf-186bb7cb0f1c"
+  }
 }

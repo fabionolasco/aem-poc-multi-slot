@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.layout-container-for-aem {
+  background-color: #eee;
+  border: 3px dashed red;
+  min-height: 200px;
+}

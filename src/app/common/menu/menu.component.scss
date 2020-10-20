@@ -1,0 +1,23 @@
+.menu {
+  display: block;
+  width: 100%;
+  background-color: #78b1e2;
+  ul, ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    a {
+      display: inline-block;
+      line-height: 44px;
+      padding: 0 20px;
+      color: #023765;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: #023765;
+      color: #fff;
+    }
+  }
+}
