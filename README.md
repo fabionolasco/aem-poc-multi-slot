@@ -1,27 +1,26 @@
-# AemPocMultiSlot
+# POC on Multi-Slot Adobe Experience Manager (AEM) Templates
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+## About
 
-## Development server
+The Adobe Experience Manager (AEM) has a tool called SPA Editor. It is a WYSIWYG tool that allows users to create pages visually, by draggin and dropping compontents on a page. That page can then, later, load data dynamically from AEM CMS in order to populate the components added.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The default drop zone is composed of one large area. All components can be dropped there. However, in real world scenarios, it is often desirable to create a scheleton (template) in which the structure is more complex. Many pages are composed of Headers, Menus, Footers, and other elements that remain the same... leading to the creation of multiple isolated dropping zones around them.
 
-## Code scaffolding
+This repo contains a simple POC that I made in partnership with Adobe (AEM) Support team. Using the template and code solutions proposed here, I was able to confirm the POC that it is possible to create a Multi-Slot Template for AEM SPA Editor, which maintain a more elaborate structure with repeated elements that cannot be changed by the SPA Editor user.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+That solution is specially valuable for situations in which we want to prepare AEM to be used by Business personnel, with not much technical expertise, and, therefore, could accidentally damage the websites structure if it wasn't protected. That is why creating a template with fixed elements and multi-slots as dropping zones is so valuable.
 
-## Build
+![alt text](illustration.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+---
 
-## Running unit tests
+## Technologies used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- `AEM - Adobe Experience Manage`
+- `Angular`
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## POC result
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Confirmed.
